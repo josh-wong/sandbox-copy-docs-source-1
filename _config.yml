@@ -12,6 +12,4 @@ defaults:
       type: "default"
     values:
       layout: default # the type of template used from the "_layouts" folder
-
-redirect_to: 
-  - https://080f53.com#odsredirect
+      redirect_to: https://080f53.com#odsredirect

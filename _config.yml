@@ -9,7 +9,7 @@ whitelist:
 defaults:
   - scope:
       path: "" # Specifies the name of the folder where this version of docs are located.
-      type: "default" # Since this scope uses `collection_dir`, we do not need to specify the type here.
+      type: "default"
     values:
       layout: default # the type of template used from the "_layouts" folder
       redirect_to: https://080f53.com#odsredirect

@@ -15,6 +15,6 @@ defaults:
       type: "default" # Since this scope uses `collection_dir`, we do not need to specify the type here.
     values:
       layout: default # the type of template used from the "_layouts" folder
-      redirect_to: https://080f53.com#odsredirect
+      redirect_to: https://www.080f53.com#odsredirect
 
-redirect_to: https://080f53.com#odsredirect
+redirect_to: https://www.080f53.com#odsredirect

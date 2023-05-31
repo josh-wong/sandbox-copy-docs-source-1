@@ -1,3 +1,6 @@
+url                      : "https://josh-wong.github.io" # the base hostname & protocol for your site
+baseurl                  : "/sandbox-copy-docs-destination-source-1" # Leave this empty. When selecting the "Scalar Docs" logo, you will be taken to the Scalar Docs site (`https://docs.scalar-labs.com/`). For the URL, see `includes/masthead.html`.
+
 google_analytics: "G-PMP34RZWN2"
 
 plugins:
@@ -9,7 +12,9 @@ whitelist:
 defaults:
   - scope:
       path: "" # Specifies the name of the folder where this version of docs are located.
-      type: "default"
+      type: "default" # Since this scope uses `collection_dir`, we do not need to specify the type here.
     values:
       layout: default # the type of template used from the "_layouts" folder
       redirect_to: https://080f53.com#odsredirect
+
+redirect_to: https://080f53.com#odsredirect
